@@ -15,11 +15,11 @@
             <div class="nav-wrapper">
                 <div class="cont">
                     <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <a href="./index.html" class="brand-logo brand-font">LearntoCode</a>
+                    <a href="../index.html" class="brand-logo brand-font">LearntoCode</a>
                     <ul class="right">
                         <li><a class="hide-on-med-and-down" href="#!">Courses</a></li>
-                        <li><a class="hide-on-med-and-down" href="#!">Teachers</a></li>
-                        <li><a class="hide-on-med-and-down" href="#!">Resources</a></li>
+                        <li><a class="hide-on-med-and-down" href="./mentors.html">Mentors</a></li>
+                        <li><a class="hide-on-med-and-down" href="./projects.html">Projects</a></li>
                         <li><a href="#!" class="tooltipped btn-floating btn-small teal darken-3 hide-on-med-and-down" data-tooltip="instagram">
                             <i class="fab fa-instagram"></i>
                         </a></li>
@@ -68,6 +68,61 @@
                         </form>
                     </div>
                 </nav>
+            </div>
+
+            <div class="upload">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 m6 l6">
+                            <h4 class="teal-text text-darken-4">Upload Text</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  
+                                sed numquam maxime tempora repellendus dolore iure magnam, 
+                                consectetur unde nulla molestiae quia blanditiis, </p>
+                        </div>
+                        <div class="col s12 m6 l6 mt">
+                            <a href="#project-upload" class="btn-large waves-effect waves-light waves-yellow amber darken-2 modal-trigger"><i class="material-icons right">cloud_upload</i> Upload</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-form">
+                <div class="modal" id="project-upload">
+                    <div class="moadl-content">
+                        <div class="container">
+                            <h5>Upload Project</h5>
+                            <form action="">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix teal-text">local_library</i>
+                                    <input type="text" id="projectName" class="validate">
+                                    <label for="projectName">Project Name</label>
+                                </div>
+                                <div class="input-field">
+                                    <i class="material-icons prefix teal-text">image</i>
+                                    <input type="text" id="imageUrl" class="validate">
+                                    <label for="imageUrl">Image Url</label>
+                                </div>
+                                <div class="input-field">
+                                    <i class="material-icons prefix teal-text">description</i>
+                                    <textarea class="materialize-textarea" name="description" id="projectDescription" cols="30" rows="10"></textarea>
+                                    <label for="projectDescription">Project Description</label>
+                                </div>
+                                <div class="file-field input-field">
+                                    <div class="btn">
+                                        <span>File</span>
+                                        <input type="file">
+                                    </div>
+                                    <div class="file-path-wrapper">
+                                        <input class="file-path validate" type="text" placeholder="upload zip file">
+                                    </div>
+                                </div>
+                                <div class="submit center">
+                                    <button type="submit" class="btn amber darken-2"><i class="material-icons right">cloud_upload</i> Upload</button>
+                                </div>
+                            </form><br><br>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="content">
