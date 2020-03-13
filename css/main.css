@@ -1,0 +1,22 @@
+.box { position: absolute; margin: 0 auto; width: 100%; top: 250px; }
+.btn-large  { border-radius: 0.4rem; }
+.explore { margin-top: 12px; }
+.drop { margin-top: 1rem; }
+.codeDrop { margin-top: 20px; }
+.eBtn { background-color: transparent; border: 2px solid #26a69a; color: #00796b; border-radius: 3px; }
+.card-panel { margin-top: -1px; padding: 10px; }
+.font { font: bolder; font-size: 22px; font-weight: 400; }
+body { display: flex; min-height: 100vh; flex-direction: column;}
+main { flex: 1 0 auto; }
+blockquote { border-left: 5px solid #ee6e73; }
+.icon_font { font-size: 40px; }
+.radius { border-radius: 1.9rem; }
+.round { border-radius: 1rem; }
+.discover { margin-top: 10px; }
+.fBtn {background-color: transparent;}
+.float{ background-color: transparent;}
+.cont { margin-left: 20px; margin-right: 20px; }
+.fall { margin-top: 30px; }
+.falx { margin-top: 27px;}
+#offer { border-radius: 0px 12px 0px 12px;}
+#learnCode { background-image: url(../assets/elements.jpg); background-size: cover; background-position: center; min-height: 500px; width: 100%; margin-top: 2rem;}
