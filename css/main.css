@@ -6,6 +6,7 @@
 .eBtn { background-color: transparent; border: 2px solid #26a69a; color: #00796b; border-radius: 3px; }
 .card-panel { margin-top: -1px; padding: 10px; }
 .font { font: bolder; font-size: 22px; font-weight: 400; }
+.brand-font { font-size: 5px; }
 body { display: flex; min-height: 100vh; flex-direction: column;}
 main { flex: 1 0 auto; }
 blockquote { border-left: 5px solid #ee6e73; }
