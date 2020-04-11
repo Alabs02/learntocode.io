@@ -25,3 +25,4 @@ blockquote { border-left: 5px solid #ee6e73; }
 .falx { margin-top: 27px;}
 #offer { border-radius: 0px 12px 0px 12px;}
 #learnCode { background-image: url(../assets/elements.jpg); background-size: cover; background-position: center; min-height: 500px; width: 100%; margin-top: 2rem;}
+img .responsive { width: 100%; }
